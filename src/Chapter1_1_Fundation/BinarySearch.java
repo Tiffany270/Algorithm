@@ -56,7 +56,7 @@ public class BinarySearch {
 		int hi = list.length - 1;
 		while (lo <= hi) {
 			int mid = lo + (hi - lo) / 2;
-			if (key < list[mid]) {//这里是下标！
+			if (key < list[mid]) {// 这里是下标！
 				hi = mid - 1;
 			} else if (key > list[mid]) {
 				lo = mid + 1;
