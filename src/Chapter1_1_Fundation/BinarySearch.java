@@ -10,7 +10,7 @@ import java.util.Scanner;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-public class BinarySeach {
+public class BinarySearch {
 	/*
 	 * 二分查找 此用例为： 接受一个文件作为参数，过滤掉标准输入中的所有存在在文件中的条目，仅打印在白名单上的整数。
 	 */
