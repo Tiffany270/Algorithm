@@ -30,6 +30,10 @@ public class FixedCapcityStackOfStrings {
 	public int size() {
 		return size;
 	}
+	
+	public boolean isFull() {
+		return true;
+	}
 
 	public static void main(String[] args) {
 		FixedCapcityStackOfStrings stack = new FixedCapcityStackOfStrings(100);
