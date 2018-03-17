@@ -3,7 +3,7 @@ package Chapter1_3_QueuesAndStacks;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-public class Exercises1_3_1 {
+public class Exercise1_3_1 {
 	/*
 	 * Add a method isFull() 添加又一个方法isFull()
 	 */
@@ -12,7 +12,7 @@ public class Exercises1_3_1 {
 	private int size;
 	private int cap;
 
-	public Exercises1_3_1(int cap) {
+	public Exercise1_3_1(int cap) {
 		this.cap = cap;
 		arr = new String[cap];
 	}
@@ -38,7 +38,7 @@ public class Exercises1_3_1 {
 	}
 
 	public static void main(String[] args) {
-		Exercises1_3_1 stack = new Exercises1_3_1(3);
+		Exercise1_3_1 stack = new Exercise1_3_1(3);
 
 		while (!stack.isFull()) {
 			if (!StdIn.isEmpty()) {
